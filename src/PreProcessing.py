@@ -6,6 +6,10 @@ def preProcessingIfIdf():
     pass
 
 
+def preProcessingBagOfWords():
+    pass
+
+
 def preProcessing(method: str):
     if method == "if":
         return preProcessingIf()
